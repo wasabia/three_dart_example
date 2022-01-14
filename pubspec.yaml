@@ -29,9 +29,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_gl: ^0.0.6
-  three_dart: ^0.0.1
+  three_dart: ^0.0.3
   three_dart_jsm: ^0.0.1
 
+
+dependency_overrides:
+  three_dart:
+    path: ../
 
 dev_dependencies:
   flutter_test:
